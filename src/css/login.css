@@ -1,0 +1,88 @@
+.login{
+    margin:0px;
+    background:url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png") center no-repeat;
+    position: relative;
+    height:100vh;
+    background-size:cover; 
+}
+
+.login__logo{
+    width:100px;
+    position: fixed;
+    left:10px;
+    top:10px
+}
+
+.login__button{
+    background-color:red;
+    padding:10px 20px;
+    color:white;
+    border:0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    right:10px;
+    top:10px;
+    position:fixed
+}
+
+.login__body{
+    color:white;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+    left:0px;
+    right:0px;
+     
+}
+
+.login__body h1{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.login__body h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.login__body h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.login__body .login__form{
+    display:flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.login__body .login__form input{
+    width:300px;
+    height:40px;
+    padding:0px 15px;
+ }
+
+ .login__body .login__form button{
+     height:45px;
+     border:0;
+     padding:0px 10px;
+     background-color:red ;
+     font-size: 16px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     cursor: pointer;
+     color:white;
+ }
+
+ .login_gradient{
+    width:100%;
+    z-index: 1;
+    height: 100vh;
+    background-attachment: rgba(0,0,0,0.4); 
+    background-image:linear-gradient(to top, rgba(0,0,0,0.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,0) 100% );
+ }

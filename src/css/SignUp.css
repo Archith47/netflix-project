@@ -1,0 +1,44 @@
+.SignUp {
+    padding:70px;
+    max-width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: black;
+
+}
+
+.SignUp form{
+    display:grid;
+    flex-direction: column;
+}
+
+.SignUp form input{
+    outline:0;
+    height:40px;
+    border:0;
+    margin-bottom:15px;
+    border-radius:5px;
+    padding:5px 15px;
+}
+
+.SignUp form button{
+    height:40px;
+    border:0;
+    border-radius:5px;
+    background-color: red !important;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.SignUp h5{
+    color:grey;
+}
+
+.SignUp h5 span {
+    color:white;
+}
+
+.SignUp h5:hover span {
+    text-decoration: underline;
+}
